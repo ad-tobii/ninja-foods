@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Foods - Beautiful Tailwind Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-[#32cd32]">Ninja Foods</div>
+            <ul class="flex space-x-8">
+                <li><a href="#" class="text-gray-300 hover:text-[#32cd32]">Home</a></li>
+                <li><a href="menu.html" class="text-gray-300 hover:text-[#32cd32]">Menu</a></li>
+                <li><a href="about.html" class="text-gray-300 hover:text-[#32cd32]">About</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-[#32cd32]">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+   <section class="relative bg-gray-900 text-white py-20">
+    <div class="absolute inset-0 bg-cover bg-center opacity-50" style="background-image: url('./img/food_hero.jpeg');"></div>
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="relative container mx-auto px-4 text-center">
+        <h1 class="text-5xl font-extrabold mb-4 text-[#32cd32] animate-fade-in-up">Welcome to Ninja Foods</h1>
+        <p class="text-xl mb-6 animate-fade-in-up-delay">We provide the best food delivery service to elevate your dining experience.</p>
+        <button class="bg-[#32cd32] text-gray-900 px-6 py-3 font-semibold rounded-full shadow-md hover:bg-[#28a428] animate-bounce">
+            Get Started
+        </button>
+    </div>
+</section>
+    <!-- Services Section -->
+    <section class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-[#32cd32] mb-4">Our Services</h2>
+                <p class="text-gray-300">We offer a wide range of food delivery services to help you enjoy delicious meals conveniently.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <img class="w-full h-48 object-cover mb-6 rounded-lg" src="./img/fried_rice.jpeg" alt="Service 1">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Fast Delivery</h3>
+                    <p class="text-gray-400">Get your food delivered within minutes, hot and fresh!</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <img class="w-full h-48 object-cover mb-6 rounded-lg" src="./img/efo.jpeg" alt="Service 2">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Wide Variety</h3>
+                    <p class="text-gray-400">Choose from a wide selection of dishes from top restaurants.</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <img class="w-full h-48 object-cover mb-6 rounded-lg" src="./img/spaghetti.jpg" alt="Service 3">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Affordable Prices</h3>
+                    <p class="text-gray-400">Enjoy great meals without breaking the bank.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-[#32cd32] mb-4">What Our Clients Say</h2>
+                <p class="text-gray-400">Here's what some of our satisfied customers have to say about Ninja Foods.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg text-center">
+                    <img class="w-20 h-20 object-cover rounded-full mx-auto mb-4" src="./img/nigga.jpeg" alt="Client 1">
+                    <h3 class="text-xl font-semibold text-white mb-2">John Doe</h3>
+                    <p class="text-gray-400 mb-4">"Quick and reliable delivery! My go-to for food orders."</p>
+                    <span class="text-[#32cd32] font-semibold">5/5</span>
+                </div>
+
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg text-center">
+                    <img class="w-20 h-20 object-cover rounded-full mx-auto mb-4" src="./img/lady.jpeg" alt="Client 2">
+                    <h3 class="text-xl font-semibold text-white mb-2">Jane Smith</h3>
+                    <p class="text-gray-400 mb-4">"Amazing variety and affordable prices. Highly recommended!"</p>
+                    <span class="text-[#32cd32] font-semibold">5/5</span>
+                </div>
+
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg text-center">
+                    <img class="w-20 h-20 object-cover rounded-full mx-auto mb-4" src="./img/charles.jpeg" alt="Client 3">
+                    <h3 class="text-xl font-semibold text-white mb-2">Michael Lee</h3>
+                    <p class="text-gray-400 mb-4">"The delivery was on time, and the food was still warm!"</p>
+                    <span class="text-[#32cd32] font-semibold">5/5</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-10">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p class="mb-4">&copy; 2024 Ninja Foods. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
